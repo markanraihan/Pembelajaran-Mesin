@@ -103,8 +103,11 @@ repo-citrus/
 
 ## 8. Bio
 UTS Mata Kuliah Praktikum Pembelajaran Mesin
+
 Nama: Muhammad Arkan Raihan
+
 NIM: 1227050085
+
 Kelas: Praktikum Pembelajaran Mesin E
 
 ## 9. Kesimpulan
@@ -121,11 +124,11 @@ c. Tuning hyper‑parameter
    - GridSearchCV (5‑fold) mencari kombinasi terbaik.  
    - Setting optimal: `criterion=entropy`, `max_depth=None`, `min_samples_split=5`, `min_samples_leaf=1`.
 
-d. Evaluasi**  
+d. Evaluasi  
    - Akurasi pada data uji: **96 %**.  
    - Precision, recall, f1‑score untuk kedua kelas ~0.95–0.96 → model tergolong sangat baik.
 
-e. *Output**  
+e. *Output 
    - Confusion matrix & feature‑importance disimpan sebagai PNG.  
    - Model final disimpan ke `model_dt.joblib` untuk deployment selanjutnya.
 
